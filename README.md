@@ -12,7 +12,7 @@
 
 I'm __[Daniel Zarifpour](https://zarif.pro)__, a passionate engineer who has big dreams. 
 I like to make complex ideas into simple applications. 
-I hope you find my repositories useful and I hope they inspire you create, prosper, and live life happily.
+I hope you find my repositories useful and I hope they inspire you to create, prosper, and live life happily.
 
 <a href="https://www.buymeacoffee.com/zarifpour" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-red.png" alt="Buy Me A Coffee" width="150" ></a>
 
