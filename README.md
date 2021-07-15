@@ -1,10 +1,10 @@
 ### <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px"> Hey stranger
 
-<a href="https://www.linkedin.com/in/abhisheknaiidu/">
+<a href="https://dzarif.medium.com">
   <img align="left" alt="Daniel's Medium" width="22px" src="https://raw.githubusercontent.com/zarifpour/zarif.pro/master/assets/svg/medium.svg" />
 </a>
 
-<a href="https://www.linkedin.com/in/zarifpour/">
+<a href="https://www.linkedin.com/in/zarifpour">
   <img align="left" alt="Daniel's LinkedIn" width="22px" src="https://raw.githubusercontent.com/peterthehan/peterthehan/master/assets/linkedin.svg" />
 </a>
 
