@@ -21,7 +21,6 @@ I hope you find my repositories useful and I hope they inspire you to create, pr
 - 🤔 I’m looking for help with finding the secrets of the universe
 - 💬 Ask me about anything
 - 📫 You can reach me at: __[daniel@zarif.pro](mailto:daniel@zarif.pro)__
-- ⚡ Fun fact: Sometimes you just gotta believe
 
 #### Languages and Tools
 <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png"></code>
