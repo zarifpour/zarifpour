@@ -1,5 +1,15 @@
 ### <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px"> Hey stranger
 
+<a href="https://www.linkedin.com/in/abhisheknaiidu/">
+  <img align="left" alt="Daniel's Medium" width="22px" src="https://raw.githubusercontent.com/zarifpour/zarif.pro/master/assets/svg/medium.svg" />
+</a>
+
+<a href="https://www.linkedin.com/in/zarifpour/">
+  <img align="left" alt="Daniel's LinkedIn" width="22px" src="https://raw.githubusercontent.com/peterthehan/peterthehan/master/assets/linkedin.svg" />
+</a>
+
+![](https://visitor-badge.glitch.me/badge?page_id=zarifpour.zarifpour)
+
 I'm __[Daniel Zarifpour](https://zarif.pro)__, a passionate engineer who has big dreams. 
 I like to make complex ideas into simple applications. 
 I hope you find my repositories useful and I hope they inspire you create, prosper, and live life happily.
