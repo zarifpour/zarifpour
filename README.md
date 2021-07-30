@@ -18,8 +18,8 @@ I hope you find my repositories useful and I hope they inspire you to create, pr
 
 - 🌱 I’m currently learning Solidity and React
 - 👯 I’m looking to collaborate on smart contracts
-- 🤔 I’m looking for help with finding the secrets of the universe
-- 💬 Ask me about anything
+- 🤔 I’m looking for help with finding the secrets of the blockchain
+- 💬 Ask me about crypto
 - 📫 You can reach me at: __[daniel@zarif.pro](mailto:daniel@zarif.pro)__
 
 #### Languages and Tools
