@@ -10,7 +10,7 @@
 
 ![](https://visitor-badge.glitch.me/badge?page_id=zarifpour.zarifpour)
 
-I'm __[Daniel Zarifpour](https://zarif.pro)__, a passionate engineer who is passionate about blockchain. 
+I'm __[Daniel Zarifpour](https://zarif.pro)__, an engineer who is passionate about blockchain. 
 I like to make complex ideas into simple applications. 
 I hope you find my repositories useful and I hope they inspire you to create, prosper, and live life fulfilled.
 
