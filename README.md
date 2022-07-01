@@ -1,4 +1,4 @@
-### <img src="https://c.tenor.com/Wx9IEmZZXSoAAAAi/hi.gif" width="25px"> Hey stranger
+### 👋 Hey stranger
 
 <a href="https://dzarif.medium.com">
   <img align="left" alt="Daniel's Medium" width="22px" src="https://raw.githubusercontent.com/zarifpour/zarif.pro/master/assets/svg/medium.svg" />
