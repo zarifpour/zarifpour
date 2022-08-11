@@ -1,45 +1,36 @@
-### 👋 Hey stranger
-
-<a href="https://dzarif.medium.com">
-  <img align="left" alt="Daniel's Medium" width="22px" src="https://raw.githubusercontent.com/zarifpour/zarif.pro/master/assets/svg/medium.svg" />
-</a>
-
-<a href="https://www.linkedin.com/in/zarifpour">
-  <img align="left" alt="Daniel's LinkedIn" width="22px" src="https://raw.githubusercontent.com/peterthehan/peterthehan/master/assets/linkedin.svg" />
-</a>
-
+[![Linkedin: zarifpour](https://img.shields.io/badge/-zarifpour-blue?style=flat&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/zarifpour/)](https://www.linkedin.com/in/zarifpour/)
 ![](https://visitor-badge.glitch.me/badge?page_id=zarifpour.zarifpour)
-
-I'm __[Daniel Zarifpour](https://zarif.pro)__, an engineer who is passionate about blockchain. 
-I like to make complex ideas into simple applications. 
-I hope you find my repositories useful and I hope they inspire you to create, prosper, and live life fulfilled.
 
 <!-- <a href="https://www.buymeacoffee.com/zarifpour" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-red.png" alt="Buy Me A Coffee" width="150" ></a> -->
 
-- 🌱 I’m currently learning Solidity and React
-- 👯 I’m looking to collaborate on smart contracts
-- 🤔 I’m looking for help with finding the secrets of the blockchain
-- 💬 Ask me about crypto
-- 📫 You can reach me at: __[daniel@zarif.pro](mailto:daniel@zarif.pro)__
+```solidity
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.14;
 
-#### Languages and Tools
-<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png"></code>
-<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png"></code>
-<code><img height="20" src="https://raw.githubusercontent.com/github/explore/ba9de12f88fd08825c51928e91f1678cb5c94b26/topics/solidity/solidity.png"></code>
-<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/aws/aws.png"></code>
-<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"></code>
-<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"></code>
-<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/php/php.png"></code>
-<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/wordpress/wordpress.png"></code>
-<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png"></code>
-<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"></code>
-<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/jquery/jquery.png"></code>
-<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/java/java.png"></code>
-<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/cpp/cpp.png"></code>
-<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mysql/mysql.png"></code>
-<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png"></code>
+import "@openzeppole/contracts/adjectives/Delicious"
 
+contract README is Delicious {
+    address private owner;
+    string public name;
+    Emoji[] public skills;
+    
+    event Thank(address indexed sender);
 
+    constructor() {
+        owner = 0x5cfb84bf312f138129006500Bfb1606130640EDE;
+        name = "Daniel Zarifpour";
+        skills = ["💠", "🐍", "🔎", "🔒", "🧪", "🗣", "🎨"];
+    }
 
-
-<p align="left"> <img src="https://github-readme-stats.vercel.app/api?username=zarifpour&show_icons=true&theme=gotham" alt="zarifpour" />
+    function donate() public payable {
+        require(msg.value > 0, "That's not nice");
+        require(msg.value < 1000000, "That's too nice");
+        emit Thank(msg.sender);
+    }
+    
+    function withdraw() external payable {
+        require(msg.sender == owner, "Nice try");
+        payable(msg.sender).transfer(address(this).balance);
+    }
+}
+```
