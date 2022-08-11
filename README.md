@@ -7,7 +7,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.14;
 
-import "@openzeppole/contracts/adjectives/Delicious"
+import "@openzeppole/contracts/adjectives/Delicious";
 
 contract README is Delicious {
     address private owner;
