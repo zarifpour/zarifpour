@@ -7,7 +7,7 @@
 
 <!-- <a href="https://www.buymeacoffee.com/zarifpour" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-red.png" alt="Buy Me A Coffee" width="150" ></a> -->
 
-[<kbd> <br> 📆 Connect <br> </kbd>][Connect] [<kbd> <br> 🌐 Website <br> </kbd>][Website] [<kbd> <br> 📫 Telegram <br> </kbd>][Telegram] [<kbd> <br> 💼 LinkedIn <br> </kbd>][LinkedIn]
+[<kbd> <br> 📆 Connect <br> </kbd>][Connect] [<kbd> <br> 🌎 Website <br> </kbd>][Website] [<kbd> <br> 📫 Telegram <br> </kbd>][Telegram] [<kbd> <br> 💼 LinkedIn <br> </kbd>][LinkedIn]
 
 ```solidity
 // SPDX-License-Identifier: MIT
