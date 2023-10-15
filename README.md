@@ -14,30 +14,31 @@
 
 pragma solidity ^0.8.14;
 
+import "@openzeppelin/contracts/access/Ownable.sol";
 import "@openzeppole/contracts/adjectives/Delicious.sol";
 
-contract README is Delicious {
-    address private owner;
-    string public name;
-    Emoji[] public skills;
-    
-    event Thank(address indexed sender);
+contract README is Delicious, Ownable {
+    string public ens;
+    Emoji[] public abilities;
+
+    error NoLove();
+    error ItsOver9000();
+
+    event Cheers(address indexed sender);
 
     constructor() {
-        owner = 0x5cfb84bf312f138129006500Bfb1606130640EDE;
-        name = "Daniel Zarifpour";
-        skills = ["💠", "🐍", "🔎", "🔒", "🧪", "🗣", "🎨"];
+        ens = "zarifpour.eth";
+        abilities = ["💠", "🐍", "🔎", "🔒", "🧪", "🗣", "🎨"];
     }
 
     function donate() public payable {
-        require(msg.value > 0, "That's not nice");
-        require(msg.value < 1000000, "That's too nice");
-        emit Thank(msg.sender);
+        if (msg.value == 0) revert NoLove();
+        if (msg.value > 9000) revert ItsOver9000();
+        emit Cheers(msg.sender);
     }
     
-    function withdraw() external payable {
-        require(msg.sender == owner, "Nice try");
-        payable(msg.sender).transfer(address(this).balance);
+    function withdraw() external payable onlyOwner {
+        payable(owner()).transfer(address(this).balance);
     }
 }
 ```
