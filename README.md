@@ -45,7 +45,7 @@ contract README is Delicious, Ownable {
 
 <!---------------------------------------------------------------------------->
 
-[Connect]: https://dotcal.co/zarif/secret
+[Connect]: https://cal.com/zarif/secret
 [Website]: https://zarif.pro
 [Telegram]: https://telegram.me/zarifpour
 [LinkedIn]: https://linkedin.com/in/zarifpour
